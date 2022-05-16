@@ -1,14 +1,25 @@
 {
-  "name": "note-taker",
+  "name": "the-express-note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Take notes fast and have it saved.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sadiq Momin",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "react-uuid": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SadiqMomin/Note-Takers-Express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SadiqMomin/Note-Takers-Express/issues"
+  },
+  "homepage": "https://github.com/SadiqMomin/Note-Takers-Express#readme"
 }
